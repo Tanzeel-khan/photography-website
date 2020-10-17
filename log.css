@@ -1,0 +1,58 @@
+body{
+    background: 
+    linear-gradient(
+        rgba(75, 68, 68, 0.233),
+        rgba(123, 136, 136, 0.212)     
+    ),
+    url(../tsa/images/34.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+html{
+    height: 100%;
+    
+}
+#loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #fff url('/images/Wedges-1.3s-200px.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 999;
+}
+.form-group {
+    margin-bottom: 15px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+label{
+    color: aliceblue;
+    font-family: 'Muli', sans-serif;
+    font-size: medium;
+    font-weight: bold;
+}
+form{
+    margin-top: 30px;
+}
+.btn-primary {
+    color:black;
+    background-color: darkgray;
+    border-color: black;
+    margin-left: 600px;
+    font-weight: bolder;
+}
+
+h1{
+    font-family: 'Lemonada', cursive;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 0px;
+    font-weight: bolder;
+     font-size: 60px;
+}

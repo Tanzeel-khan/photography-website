@@ -1,0 +1,396 @@
+body{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+html{
+    height: 100%;
+   width: 100%;
+}
+
+#loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #fff url('/images/Wedges-1.3s-200px.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 999;
+}
+
+.navbar-nav{
+   float: left;
+    list-style-type: none;
+    padding-top: 2px;
+    margin-bottom: 0px; 
+}
+.navbar-expand-lg {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: #efefef;
+}
+    
+.navbar-nav>li{
+    
+    padding-right: 5px;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    font-family: 'Muli', sans-serif;
+    font-weight: bolder;
+    color: black;
+    }
+
+.nav-link{
+    color: black;
+}
+li a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+    li:last-child {
+        padding-left: 455px;
+        margin-top: 10px;
+      }
+    
+.navbar-toggler{
+    display: none;
+}
+.btn-danger{
+    list-style-type: none;
+    border-radius: 10px;
+    padding: 10px;
+    color:white;
+    background-color: black;
+}
+.logo{
+   margin-right: 10px;
+   margin-left: -1px;
+    border-radius: 45%;
+    margin-top: -12px;
+    display: inline-block;
+    width:50px ;
+    height:50px;
+}
+/*navbar end*/
+.welcome{
+    
+    height: 738px;
+    background-image: url("");
+   
+}
+.welcome h1{
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'Dancing Script', cursive;
+    /*font-family: 'Satisfy', cursive;*/
+    font-weight: bolder;
+    color: #efefef !important;
+      
+}
+.sec1{
+    background-color: lemonchiffon;
+    height: 375px;
+}
+
+.sec2{
+    background-image: url("../tsa/images/services.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    height: 1600px;
+}
+
+.sec3{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url("../tsa/images/services.jpg");
+    height: 900px;
+}
+.sec4{
+    height: 800px;
+    background-image: url("../tsa/images/38.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.sec5{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url("../tsa/images/32.jpeg");
+    height: 700px;
+}
+.sec1 h1{
+ text-align: center;
+ padding-top: 30px;
+ font-family: 'Muli', sans-serif;
+ font-weight: bolder;
+}
+.sec2 h1{
+text-align: center;
+padding-top: 30px;
+font-family: 'Muli', sans-serif;
+font-weight: bolder;
+color: whitesmoke;
+}
+.sec3 h1{
+text-align: center;
+padding-top: 30px;
+font-family: 'Vollkorn SC', serif;
+font-weight: bolder;
+color: whitesmoke;
+}
+.sec4 h1{
+    text-align: center;
+padding-top: 30px;
+font-family: 'Vollkorn SC', serif;
+font-weight: bolder;
+color: cornsilk;
+}
+.sec5 h1{
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Muli', sans-serif;
+    font-weight: bolder;
+    color: black;
+    }
+    .sec4 h5{
+        text-align: center;
+        font-family: 'Vollkorn SC', serif;
+        font-weight: bolder;
+        color: black;
+        }    
+.sec3 h3{
+    color:white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+font-size: medium;
+}
+h1.stranger{
+margin-top: 5px;
+text-align: center;
+color: red;
+font-family: 'Muli', sans-serif;
+}
+h2.hello{
+margin-bottom: 7px;
+text-align: center;
+color: black;
+font-family: 'Muli', sans-serif;
+}
+h3.address{
+    text-align: center;
+    font-family: 'Muli', sans-serif;
+    margin-top: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+h3.phone{
+    text-align: center;
+    font-family: 'Muli', sans-serif;
+    margin-top: 28px;
+    font-weight: bold;
+}
+h3.email{
+    text-align: center;
+    font-family: 'Muli', sans-serif;
+    margin-top: 28px;
+    font-weight: bold;
+}
+.para{
+    text-align: center;
+    font-family: 'Muli', sans-serif;
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+}
+.add{
+    margin: 0 85px 42px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+.fa{
+    padding-right: 7px;
+}
+.fc{
+text-align: center;
+color: black;
+font-weight: bold;
+}
+.sc{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+.tc{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+.mail{
+    text-align: center;
+    color: black;
+    font-weight: bold;   
+}
+.sec1 h1:after{
+    content: "";
+    background: #007bff;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.sec2 h1:after{
+    content: "";
+    background: #007bff;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.sec3 h1:after{
+    content: "";
+    background: #007bff;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.sec4 h1:after{
+    content: "";
+    background: #007bff;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.sec5 h1:after{
+    content: "";
+    background: #7700ff;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+h1.stranger:after{
+    content: "";
+    display: block;
+    height: 0px;
+    width: 0px;
+    margin: 0px;
+}
+ h3.address:after{
+    content: "";
+    background: #417704;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+h3.phone:after{
+    content: "";
+    background: #025c41;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+h3.email:after{
+    content: "";
+    background: #047751;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.blur{
+    filter: grayscale(1);
+    opacity: 1;
+    display: block;
+    position: relative
+}
+
+blockquote{
+    font-family: 'Abel', sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+    text-align: center;
+}
+blockquote::before
+{
+    content: "\2033";
+    font-size: 50px;
+    color: black;
+    position: relative;
+    line-height: 20px;
+    bottom: -15px;
+    left: 1px;
+}
+
+blockquote::after
+{
+    content: "\2033";
+    font-size: 50px;
+    color: black;
+    position: relative;
+    line-height: 20px;
+    bottom: -15px;
+    left: 5px;
+}
+.card-body{
+    background-color: lavenderblush;
+    color: black;
+    border: 5px dotted black;
+}
+.card{
+    background-color: #fff;
+    transition: 0.5s;
+}
+.card-img-top {
+    width: 100%;
+    height: 240px;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+}
+.contact-form
+{
+    padding: 15px;
+
+}
+.form-control
+{
+    border-radius: 0 !important;
+    border: none !important;
+}
+::placeholder
+{
+    color: #999 !important;
+}
+.btn-primary{
+    color: aliceblue;
+    background-color: black;
+}
+
+/* footer */
+#footer
+{
+    background:black;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.fa-heart-o
+{
+    margin: 3px;
+    color: red;
+}
